@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NSK Sea Foods - Fresh Ocean to Your Table</title>
+</head>
+
+<body>
+    <!-- Login Form -->
+    <div id="loginOverlay">
+        <div>
+            <h2>🐟 Login to NSK Sea Foods</h2>
+            <input type="text" id="loginInput" placeholder="Phone Number or Email" required>
+            <input type="password" id="loginPassword" placeholder="Password" required>
+            <button>Login</button>
+            <div>Don't have account? Sign Up</div>
+        </div>
+    </div>
+
+    <!-- Signup Form -->
+    <div id="signupOverlay">
+        <div>
+            <h2>🐟 Join NSK Sea Foods</h2>
+            <input type="text" id="fullName" placeholder="Full Name" required>
+            <input type="text" id="signupInput" placeholder="Phone Number" required>
+            <input type="email" id="emailInput" placeholder="Email Address" required>
+            <input type="text" id="addressInput2" placeholder="Full Address" required>
+            <button id="sendOtpBtn">Send OTP</button>
+            <input type="text" id="otpInput" placeholder="Enter OTP" required>
+            <button id="verifyOtpBtn">Verify OTP</button>
+            <input type="password" id="newPassword" placeholder="Set Password" required>
+            <button id="createAccountBtn">Create Account</button>
+            <div>Already have account? Login</div>
+        </div>
+    </div>
+
+    <!-- Order Popup -->
+    <div id="orderPopup">
+        <div>
+            <h3 id="popupTitle">Order Details</h3>
+            <p id="popupProduct">Product Name</p>
+            <p id="popupPrice">Price: ₹0/kg</p>
+            
+            <input type="number" id="quantityInput" placeholder="Quantity (kg)" min="0.5" step="0.5" value="1">
+            <input type="text" id="addressInput" placeholder="Delivery Address">
+            
+            <div>
+                <button>Add to Cart</button>
+                <button>Place Order</button>
+                <button>Cancel</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Home Section -->
+    <div id="homeSection">
+        <div>
+            <div id="userInfo">
+                <span id="userName">Welcome, User</span>
+                <button>My Account</button>
+                <button>Logout</button>
+            </div>
+            <h1>🌊 NSK SEA FOODS</h1>
+            <p>🐟 Premium Fresh Seafood | 🦐 Ocean to Table Excellence | 🌊 Your Trusted Aqua Partner</p>
+        </div>
+
+        <div>
+            <!-- Category 1: Ocean Fresh Marketplace -->
+            <div>
+                <div>🌊</div>
+                <h3>Ocean Fresh Marketplace</h3>
+                <p>🦐 Premium Prawns | 🐟 Fresh Fishes | 🦀 Live Crabs | 🎣 Fishing Nets - Your one-stop destination for ocean-fresh seafood delivered with ice-cold freshness guarantee!</p>
+                <button>Explore Fresh Seafood</button>
+            </div>
+
+            <!-- Category 2: Aqua Services Hub -->
+            <div>
+                <div>🐠</div>
+                <h3>Aqua Services Hub</h3>
+                <p>🔧 Pond Maintenance | 🎣 Net Repairs | ⚙️ Equipment Servicing | 👨🔬 Expert Consultation - Professional aquaculture services by certified marine experts!</p>
+                <button>Book Expert Services</button>
+            </div>
+
+            <!-- Category 3: Partner Network Hub -->
+            <div>
+                <div>🤝</div>
+                <h3>Partner Network Hub</h3>
+                <p>🏢 Business Partners | 🚚 Suppliers | 🌐 Distributors | 🎓 Aqua Experts - Join India's largest seafood network and scale your aquaculture business!</p>
+                <button>Join Our Network</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Shopping Section -->
+    <div id="shoppingSection">
+        <div>
+            <button>← Back to Home</button>
+            <div>
+                <h1>🌊 Ocean Fresh Marketplace</h1>
+                <p>Premium Seafood Collection - Fresh from Ocean to Your Table</p>
+            </div>
+            
+            <div>
+                <div>
+                    <h3>Premium Prawns Paradise</h3>
+                    <p>Export Quality Prawns | 12-100 Count Sizes | Fresh & Frozen Available</p>
+                    <button>Browse Prawns</button>
+                </div>
+                
+                <div>
+                    <h3>Sea Fish Collection</h3>
+                    <p>Ocean Fresh Sea Fishes | 0.5kg to 5kg Cuts | Premium Quality</p>
+                    <button>Browse Sea Fish</button>
+                </div>
+                
+                <div>
+                    <h3>River Fish Collection</h3>
+                    <p>Fresh Water Fishes | 0.5kg to 5kg Cuts | Daily Fresh Catch</p>
+                    <button>Browse River Fish</button>
+                </div>
+                
+                <div>
+                    <h3>Mud Crab Collection</h3>
+                    <p>Fresh Mud Crabs | Small to XXL Sizes | Live & Fresh</p>
+                    <button>Browse Mud Crabs</button>
+                </div>
+                
+                <div>
+                    <h3>King Crab Collection</h3>
+                    <p>Premium King Crabs | Large to XXXL Sizes | Premium Quality</p>
+                    <button>Browse King Crabs</button>
+                </div>
+                
+                <div>
+                    <h3>Pro Nets Collection</h3>
+                    <p>Brand New Fishing Nets | Professional Grade | All Sizes Available</p>
+                    <button>Browse New Nets</button>
+                </div>
+                
+                <div>
+                    <h3>Budget Nets Bazaar</h3>
+                    <p>Quality Used Nets | Tested & Verified | Great Value Deals</p>
+                    <button>Browse Used Nets</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Prawns Section -->
+    <div id="prawnsSection">
+        <div>
+            <button>← Back to Shopping</button>
+            <h2>🦐 Premium Prawns Paradise</h2>
+            <div>
+                <div>
+                    <h3>Vannamei Prawns</h3>
+                    <p>Premium Export Quality | 12-100 Count Sizes</p>
+                    <button>Browse Vannamei</button>
+                </div>
+                <div>
+                    <h3>Tiger Prawns</h3>
+                    <p>Wild Caught Quality | 12-100 Count Sizes</p>
+                    <button>Browse Tiger</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Sea Fishes Section -->
+    <div id="seaFishesSection">
+        <div>
+            <button>← Back to Shopping</button>
+            <h2>🐟 Sea Fish Collection</h2>
+            <div>
+                <div>
+                    <h3>Pomfret Fish</h3>
+                    <p>Premium Silver Pomfret | 0.5kg to 2kg Cuts</p>
+                    <button>Browse Pomfret</button>
+                </div>
+                <div>
+                    <h3>King Fish</h3>
+                    <p>Fresh King Fish | 1kg to 3kg Cuts</p>
+                    <button>Browse King Fish</button>
+                </div>
+                <div>
+                    <h3>Tuna Fish</h3>
+                    <p>Ocean Fresh Tuna | 1kg to 3kg Cuts</p>
+                    <button>Browse Tuna</button>
+                </div>
+                <div>lash.com/photo-1559827260-dc66d52bef19?w=400&h=200&fit=crop" alt="Salmon Fish">
+                    <h3>Salmon Fish</h3>
+                    <p>Premium Salmon | 0.5kg to 2kg Cuts</p>
+                    <button>Browse Salmon</button>
+                </div>
+                <div>
+                    <h3>Mackerel Fish</h3>
+                    <p>Fresh Mackerel | 0.5kg to 2kg Cuts</p>
+                    <button>Browse Mackerel</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- River Fishes Section -->
+    <div id="riverFishesSection">
+        <div>
+            <button>← Back to Shopping</button>
+            <h2>🐠 River Fish Collection</h2>
+            <div>
+                <div>
+                    <h3>Rohu Fish</h3>
+                    <p>Fresh Water Rohu | 1kg to 5kg Cuts</p>
+                    <button>Browse Rohu</button>
+                </div>
+                <div>
+                    <h3>Catla Fish</h3>
+                    <p>Premium Catla | 1kg to 5kg Cuts</p>
+                    <button>Browse Catla</button>
+                </div>
+                <div>
+                    <h3>Mrigal Fish</h3>
+                    <p>Fresh Mrigal | 0.5kg to 3kg Cuts</p>
+                    <button>Browse Mrigal</button>
+                </div>
+                <div>
+                    <h3>Hilsa Fish</h3>
+                    <p>Premium Hilsa | 0.5kg to 2kg Cuts</p>
+                    <button>Browse Hilsa</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Product Sections -->
+    <div id="vannameiPrawnsSection">
+        <div>
+            <button>← Back to Prawns</button>
+            <h2>🦐 Vannamei Prawns Collection</h2>
+            <div>
+                <div><h4>12 Count Vannamei</h4><p>Colossal Size</p><p>₹1200/kg</p><button>Order Now</button></div>
+                <div><h4>20 Count Vannamei</h4><p>Extra Jumbo</p><p>₹950/kg</p><button>Order Now</button></div>
+                <div><h4>30 Count Vannamei</h4><p>Jumbo</p><p>₹750/kg</p><button>Order Now</button></div>
+                <div><h4>40 Count Vannamei</h4><p>Large</p><p>₹650/kg</p><button>Order Now</button></div>
+                <div><h4>60 Count Vannamei</h4><p>Medium</p><p>₹450/kg</p><button>Order Now</button></div>
+                <div><h4>80 Count Vannamei</h4><p>Small</p><p>₹350/kg</p><button>Order Now</button></div>
+                <div><h4>100 Count Vannamei</h4><p>Tiny</p><p>₹280/kg</p><button>Order Now</button></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- My Account Section -->
+    <div id="accountSection">
+        <div>
+            <button>← Back to Home</button>
+            <div>
+                <h1>👤 My Account</h1>
+                <p>Manage your profile, orders, and preferences</p>
+            </div>
+            
+            <div>
+                <div>
+                    <div>📋</div>
+                    <h3>Profile Information</h3>
+                    <p><strong>Name:</strong> <span id="profileName">User</span></p>
+                    <p><strong>Contact:</strong> <span id="profileContact">Not provided</span></p>
+                    <p><strong>Address:</strong> <span id="profileAddress">Not provided</span></p>
+                    <p><strong>Member Since:</strong> <span id="memberSince">Today</span></p>
+                </div>
+                
+                <div>
+                    <div>🛒</div>
+                    <h3>My Cart</h3>
+                    <p>Items in Cart: <strong id="cartCount">0</strong></p>
+                    <p>Total Value: <strong id="cartTotal">₹0</strong></p>
+                    <button>View Cart</button>
+                </div>
+                
+                <div>
+                    <div>📦</div>
+                    <h3>My Orders</h3>
+                    <p>Total Orders: <strong id="orderCount">0</strong></p>
+                    <p>Recent Orders: <strong id="recentOrder">None</strong></p>
+                    <button>View All Orders</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
